@@ -1,0 +1,20 @@
+# Thresholds for data quality dimensions
+accuracy_threshold: 0.95
+completeness_threshold: 0.95
+consistency_fields:
+  - email
+  - name
+
+# Uniqueness and Identity
+id_col: id
+
+# Timeliness configuration
+date_col: created_at
+timeliness_max_days: 3
+
+# Validity schema: column names and expected Python types
+schema:
+  id: int
+  name: str
+  email: str
+  created_at: str
