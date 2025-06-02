@@ -1,0 +1,7 @@
+id,name,email,created_at
+1,Alice,a@example.com,2024-05-01
+2,Bob,b@example.com,2024-05-02
+2,,c@example.com,2024-03-01
+4,Dave,,2024-05-05
+5,Eve,e@example.com,2023-11-01
+6,Frank,12345,2024-05-04
